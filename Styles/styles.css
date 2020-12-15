@@ -1,0 +1,96 @@
+body {
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+footer {
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 30px;
+    border-radius: 25pt;
+    border: solid 2px white;
+    background-color: whitesmoke;
+    position: fixed;
+    font-family: monospace;
+}
+
+.center {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+h1 {
+    font-size: 70pt;
+    font-family:monospace;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+h3 {
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+.left-padding {
+    padding-left: 370px;
+}
+
+.header-format {
+    font-family: monospace;
+    font-size: 16pt;
+}
+
+.mainbody {
+    top: 200px;
+    width: 550px;
+    height: 500px;
+    border: solid 2px whitesmoke;
+    border-radius: 25pt;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.mainbody-padding {
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.vidbox {
+    width: 1040px;
+    height: 590px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
+
+.commentbox {
+    width: 900px;
+    max-height: 100%;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 25pt;
+}
+
+.leftmenu {
+    top: 200px;
+    left: 5px;
+    max-height: 100%;
+    width: 250px;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.leftpic {
+    justify-content: left;
+    float: left;
+}
